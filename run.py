@@ -93,13 +93,15 @@ def mail(file):                   #发送邮件
     except Exception as e:
         print('email exception', str(e))
 
-def main(h=14, m=23):         #定时爬取
-    while True:
-        now = datetime.datetime.now()
-        # print(now.hour, now.minute)
-        if now.hour == h and now.minute == m:
-            reptile()
-        # 每隔60秒检测一次
-        time.sleep(60)
+# def main(h=14, m=23):         #定时爬取
+#     while True:
+#         now = datetime.datetime.now()
+#         # print(now.hour, now.minute)
+#         if now.hour == h and now.minute == m:
+#             reptile()
+#         # 每隔60秒检测一次
+#         time.sleep(60)
+#
+# main()
 
-main()
+reptile()
