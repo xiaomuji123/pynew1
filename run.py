@@ -101,7 +101,5 @@ def mail(file):                   #发送邮件
 #             reptile()
 #         # 每隔60秒检测一次
 #         time.sleep(60)
-#
-# main()
 
-reptile()
+main()
